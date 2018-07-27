@@ -1,12 +1,5 @@
 <?php
 
-   /* define("host","localhost"); # Direccion ip Base de datos
-    define("BD","wiketstest");     # nombre de la base de datos
-    define("SGBD","mysql");             # Sistema manegador de Base de datos  (mysql, postgresql =  pgsql)
-    define("usuario","juan5711");     # nombre de usario conexion
-    define("contrasena","");     # contrasenasssss
-*/
-
     #MOTOR DE BASE DE DATOS 'DRIVER' DEBE IR EN MINÚSCULA
     define('MOTOR_BD', 'mysql');
 
