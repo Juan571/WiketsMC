@@ -23,7 +23,7 @@ Mysql(stable)
 
 Crear una Base de datos llamada `wiketsMC`, y exportar la estructura a partir del archivo: `wiketsMC.sql`
 
-
+>Se recomienda usar Phpmyadmin.. (ya deberia estar previamente instalado)
 
 Luego procedemos a configurar los parametros de conexion del proyecto en 
 
@@ -42,12 +42,11 @@ Luego procedemos a configurar los parametros de conexion del proyecto en
     # PUERTO DEL SERVIDOR USADO PARA ACCEDER A LA BD
     define('PUERTO_BD', '3306');
 
-
     # NOMBRE DE USUARIO PARA ACCEDER A LA BD
-    define('USUARIO_BD', 'root');
+    define('USUARIO_BD', 'USUARIO');
 
     # PASSWORD DEL USUARIO
-    define('CLAVE_BD', '0000');
+    define('CLAVE_BD', 'CLAVE');
 
     # EL NOMBRE DE LA BASE DE DATOS
     define("NOMBRE_BD","wiketsMC");
@@ -59,3 +58,18 @@ Luego procedemos a configurar los parametros de conexion del proyecto en
 
 ```
 Modificando los parametros necesarios con datos del servidor y según la instalacion previa del XAMPP
+Los a modificar serian : 
+
+```php
+USUARIO_BD -> root (usuario por defecto para mysql con todos los privilegios)
+CLAVE_BD -> por defecto seria ''.
+```
+
+Luego copiar la carpeta Wikets_Test1 en : 
+>C:\XAMPP/Htdocs/
+
+Una vez copiada la carpeta abrir un navegador web y acceder a http://localhost/Wikets_Test1/
+
+
+
+
